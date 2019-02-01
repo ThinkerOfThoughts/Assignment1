@@ -1,0 +1,46 @@
+a.
+	git push
+	Username for 'https://github.com': thinkerofthoughts
+	Password for 'https://thinkerofthoughts@github.com': 
+	Counting objects: 7, done.
+	Delta compression using up to 4 threads.
+	Compressing objects: 100% (5/5), done.
+	Writing objects: 100% (7/7), 787 bytes | 787.00 KiB/s, done.
+	Total 7 (delta 2), reused 0 (delta 0)
+	remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+	To https://github.com/ThinkerOfThoughts/Assignment1.git
+	   3d373c9..f588794  master -> master
+
+b.
+	5 commits total, 2 by Javier Escoar-Avila, 3 by me (Roy Vernon Rudd III), used git shortlog to obtain the number of commits by each user.
+
+c.
+	.gitignore was last modified on 1/10/2019 at 16:45:38 by Javier Escobar-Avila
+
+d.
+	To prevent the introduction of potentially disastrous instabilities into the master branch. To help prevent merge conflicts, if multiple changes are being made frequently to the master branch, then it can cause conflicts.
+
+e.
+	git log shoes the changes that have been pushed to a branch, git status shoes changes that have not yet been pushed.
+
+f.
+	To see the commited changes to a specific file, use git log filename, in this case git log Weapon.h
+
+g.
+	To search the log for a specific string, use git log -Sstringtosearchfor, in this case, git log -Sfile
+
+h.
+	I.
+		In inheritance, an object inherits the features of a parent class, in addition to its own. I.e. a motorcycle inherits the features of a bicycle, plus its own features (an engine, gas tank, etc.).
+	II.
+		The ability for a function or object to handle multiple data types while presenting the same interface. I.e. a function called 	Add(num1, num2) might take in two integers and add them together, or two decimals, or an integer and a decimal.
+	III.
+		The practice of hiding variables and functions from the user that the user ether should not modify, or doesn't need to know even exist within the object. In c++ they are tagged with public, readable and writable by the user, protected, visible but not modifiable tot he user, and private, not visible or modifiable to the user.
+
+i.
+	In the integration manager workflow, each developer has two repositories, their own private repository, and a public developer repository. Pushes to the master repository are done by the integration manager, who also handles any conflicts. In the Dictator lieutenant workflow, developers make pushes to lieutenant repositories, who resolve any conflicts there, then push to the dictators repository, who resolves any conflicts.
+
+j.
+	With 100 developers working from one repository, the chances of a significant error, or major conflict being introduced are significant. If they were working with the Dictator Lieutenant workflow, any conflicts would be caught before they made it to the central repository, as would (hopefully) any significant bugs.
+
+
