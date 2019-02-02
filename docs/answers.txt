@@ -1,0 +1,5 @@
+a.
+	RoleGame is using encapsulation, it does not appear to use polymophism.
+
+b.
+	weapon.h has string name and int hitpoints under the protected label, where main.cpp can read them, but not modify them; meanwhile weapons such as SimpleHammer and CrazyRandomSword which extend the weapon class are able to see and modify them.
