@@ -1,4 +1,10 @@
 a.
+<<<<<<< HEAD
+	RoleGame is using encapsulation, it does not appear to use polymophism.
+
+b.
+	weapon.h has string name and int hitpoints under the protected label, where main.cpp can read them, but not modify them; meanwhile weapons such as SimpleHammer and CrazyRandomSword which extend the weapon class are able to see and modify them.
+=======
 	git push
 	Username for 'https://github.com': thinkerofthoughts
 	Password for 'https://thinkerofthoughts@github.com': 
@@ -44,3 +50,4 @@ j.
 	With 100 developers working from one repository, the chances of a significant error, or major conflict being introduced are significant. If they were working with the Dictator Lieutenant workflow, any conflicts would be caught before they made it to the central repository, as would (hopefully) any significant bugs.
 
 
+>>>>>>> master
